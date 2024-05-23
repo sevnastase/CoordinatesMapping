@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Map Mapping App</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <style>
+    #modernMap, #oldMap {
+      width: 45%;
+      height: 600px;
+      display: inline-block;
+    }
+    #coordinates {
+      margin-top: 20px;
+      font-size: 16px;
+    }
+    #retrieveButton, #clearButton, #addButton {
+      margin-top: 20px;
+      padding: 10px;
+      font-size: 16px;
+    }
+    #mappings {
+      margin-top: 20px;
+      font-size: 16px;
+      white-space: pre-wrap; /* Preserve whitespace formatting */
+    }
+  </style>
+</head>
+<body>
+  <div id="modernMap"></div>
+  <div id="oldMap"></div>
+  <div id="coordinates">
+    <p id="modernCoords">Modern Map Coordinates: </p>
+    <p id="oldCoords">Old Map Coordinates: </p>
+  </div>
+  <button id="addButton">ADD</button>
+  <button id="retrieveButton">RETRIEVE</button>
+  <button id="clearButton">CLEAR</button>
+  <div id="mappings"></div>
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
