@@ -1,1 +1,1 @@
-# CoordinatesMapping
+Given a map of the entire world and a smaller picture of a map of the city of Eindhoven, the Netherlands, I am using React.js to allow the user to map coordinates from the real-world map onto X-axis and Y-axis coordinates of the picture of Eindhoven, using browser localStorge.  
